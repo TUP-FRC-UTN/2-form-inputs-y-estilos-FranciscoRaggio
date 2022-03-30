@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Form</title>
+</head>
+<body class="body">
+
+    <form action="">
+        <label class="enunciado">Nombre</label>
+        <input type="text" placeholder="Ingrese su nombre">
+        <br>
+        <br>
+
+        <label>Apellido</label>
+        <input type="text" placeholder="Ingrese su apellido">
+        <br>
+        <br>
+
+        <label>Edad</label>
+        <input type="number" min="1" max="140" name="edad">
+        <br>
+        <br>
+
+        <label>Seleccione sexo</label>
+        <br>
+        <input type="radio" name="rbtMasculino" checked value="1">Masculino
+        <input type="radio" name="rbtFemenino" value="2">Femenino
+        <br>
+        <br>
+
+        <label>Seleccione pais</label>
+        <select name="cboPais" id="paises">
+
+            <option value="">Seleccionar</option>
+            <option value="1">Argentina</option>
+            <option value="2">Brasil</option>
+            <option value="3">Uruguay</option>
+            <option value="4">Venezuela</option>
+            <option value="5">Chile</option>
+        </select>
+        <br><br>
+        <br>
+
+        <hr>
+        <label>Introduzca una breve descripcion personal</label>
+        <br>
+        <textarea name="txtareadescripcion" id="area" cols="30" rows="10">
+
+        </textarea>
+        <hr>
+
+        <br>
+        <br>        
+        <label>Fecha de ingreso</label>
+        <input type="date">
+        <br>
+        <br>
+
+        <button type="reset">Restablecer</button>
+        <button type="submit">Registrar</button>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
